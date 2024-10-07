@@ -6,6 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "vercel-build": "npm run generate-types && next build",
+    "generate-types": "tsc --emitDeclarationOnly",
     "lint": "next lint"
   },
   "dependencies": {
