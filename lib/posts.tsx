@@ -3,9 +3,6 @@ import path from 'path'
 import matter from 'gray-matter'
 import html from 'remark-html'
 import { remark } from 'remark'
-import remarkHtml from 'remark-html'
-import { useState } from 'react'
-
 
 const postsDirectory = path.join(process.cwd(), 'blogposts')
 
@@ -32,11 +29,11 @@ export function getSortedPostsData() {
       const matterResult = matter(fileContents);
 
 
-      const blogPost: BlogPost = {
+    const blogPost: BlogPost = {
       id,
       title: matterResult.data.title,
-      date: matterResult.data.date,
       category: matterResult.data.category,
+      date: matterResult.data.date,
       author: matterResult.data.author,
     }
 
