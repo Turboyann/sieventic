@@ -3,16 +3,9 @@
 import { useEffect, useState, Suspense } from "react";
 import ListItem from "./ListItem";
 import { useSearchParams, usePathname, useRouter } from "next/navigation";
+import { BlogPost } from "../../../types";
 
-interface Post {
-  id: string;
-  title: string;
-  category: string;
-  date: string;
-  author: string;
-}
-
-type PostsData = Post[];
+type PostsData = BlogPost[];
 
 interface ClientSideRenderingProps {
   allPostsData: PostsData;
