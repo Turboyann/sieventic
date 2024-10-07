@@ -6,14 +6,6 @@ import { remark } from 'remark'
 
 const postsDirectory = path.join(process.cwd(), 'blogposts')
 
-interface BlogPost {
-  id: string;
-  title: string;
-  date: string;
-  author: string;
-  category: string;
-}
-
 export function getSortedPostsData() {
     // Get file names under /posts
     const fileNames = fs.readdirSync(postsDirectory);
