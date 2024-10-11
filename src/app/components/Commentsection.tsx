@@ -47,6 +47,8 @@ export default function Commentsection({ postId }: CommentSectionProps) {
         const updatedComments = [...comments];
         const comment = updatedComments[index];
 
+        if (!comment) return;
+
         if (comment.userReaction === 'like') {
             // If already liked, undo the like
             comment.likes -= 1;
@@ -68,6 +70,9 @@ export default function Commentsection({ postId }: CommentSectionProps) {
         const updatedComments = [...comments];
         const comment = updatedComments[index];
 
+        if (!comment) return;
+
+        
         if (comment.userReaction === 'dislike') {
             // If already disliked, undo the dislike
             comment.dislikes -= 1;
