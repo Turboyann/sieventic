@@ -23,17 +23,17 @@ export default function ListItemNew({ allPostsData }: ListItemNewProps) {
           <ul className="max-w-2xl">
           <h1 className="post-title-big">Älteste Beiträge</h1>
 
-            {allPostsData.slice(0, 2).reverse().map((post) => {
-            const { id, title, date, category, author } = post; 
+            {allPostsData.reverse().slice(0, 2).map((post) => {
+            const { id, title, date, category, author, description } = post; 
             const formattedDate = getFormattedDate(date); 
           
             return (
               <li className="hero-posts-left">
-              <Image className="post-image-big" src={`/${id}.jpg`} width={5568} height={3712} alt="image"/>
+              <Image className="" src={`/${id}.jpg`} width={5568} height={3712} alt="image"/>
               <p className="category">{category}</p>
               <h1 className="post-title">{title}</h1>
               <p className="data-post">{date} <span className="post-author">{author}</span></p>
-              <p className="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui facere architecto inventore facilis ducimus porro labore praesentium tempora ipsam blanditiis.</p>
+              <p className="post-text">{description}</p>
               <Link href={`blog/posts/${id}`}> 
                 <button className="buttom-big">MEHR LESEN</button>
               </Link>
@@ -50,7 +50,7 @@ export default function ListItemNew({ allPostsData }: ListItemNewProps) {
           
 
           <ul className="mb-18">
-          {allPostsData.slice(0, 2).map((post) => {
+          {allPostsData.reverse().slice(0, 2).map((post) => {
           const { id, title, date, category } = post; 
           const formattedDate = getFormattedDate(date); 
         

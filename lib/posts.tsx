@@ -28,15 +28,15 @@ export function getSortedPostsData() {
       date: matterResult.data.date,
       category: matterResult.data.category,
       author: matterResult.data.author,
+      description: matterResult.data.description,
     } as BlogPost;
 
     return blogPost;
   });
 
-  // Filter the posts based on the topic
   const BlogPost = allPostsData;
 
-  // Sort posts by date
+  // Nach Datum sortieren
   return BlogPost.sort((a, b) => {
     if (a.date < b.date) {
       return 1;
@@ -64,6 +64,7 @@ export async function getPostData(id: string) {
     date: matterResult.data.date,
     category: matterResult.data.category,
     author: matterResult.data.author,
+    description: matterResult.data.description,
     contentHtml,
   }
 

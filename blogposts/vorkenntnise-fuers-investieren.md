@@ -1,16 +1,16 @@
 ---
-title: 'Bildungsystem in der Schweiz'
-category: 'Bildung'
-date: '2020-01-02'
+title: 'Vorkenntnise fürs Investieren'
+category: 'Finanzen'
+date: '2024-11-24'
 author: 'Yann'
-description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur assumenda atque mollitia ullam nesciunt saepe repellat quos quaerat enim officia! Voluptatem voluptate atque commodi vitae labore dolores, dolorem nesciunt aliquid.'
+description: 'Entdecke die ersten Schritte'
 ---
 
-We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request. You can use Static Generation for many types of pages, including:
+Die ersten Schritte als Investor sind die schwierigsten. Oft geben Menschen nach ihren ersten Verlusten auf. Dies liegt daran, dass die unzähligen Optionen auf dem Markt sich zu einem Schleier verdichten, der den Neueinsteiger in seiner Entscheidungsfindung hemmt.
 
 &nbsp;
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur assumenda atque mollitia ullam nesciunt saepe repellat quos quaerat enim officia! Voluptatem voluptate atque commodi vitae labore dolores, dolorem nesciunt aliquid.
+Dieser Beitrag soll Ihnen dabei helfen, den Handel mit Wertpapier selbstsicher und mit Überblick durchzuführen. Dafür  
   
 
 &nbsp;

@@ -44,7 +44,9 @@ export default function Home() {
         <li className="flex flex-col content-center justify-center w-full md:mb-0 mx-auto">
           <h1 className="text-color-primary text-xl md:text-2xl lg:text-3xl mb-2">Was über die Seite</h1>
           <p className="text-base md:text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis accusantium ut, dolor architecto consectetur incidunt sit sed hic qui odit minima, molestias ducimus dicta, sunt adipisci rem dolore voluptatum labore veniam amet in dolorum est. Praesentium fuga repudiandae ducimus cumque omnis! Consequatur hic iure veritatis commodi ut doloribus quaerat dolore!
+            Herzlich willkommen! Diese Webseite wurde mit dem Ziel ins Leben gerufen, Menschen in der Schweiz dabei zu unterstützen, ihr Leben bewusster und selbstbestimmter zu gestalten. In einer zunehmend komplexen Welt fällt es oft schwer, die richtigen Entscheidungen zu treffen und den Überblick zu behalten. 
+
+            Wir bieten Ihnen Tools, Tipps und Ressourcen, die Ihnen helfen, Ihre alltäglichen und langfristigen Entscheidungen besser zu überdenken und bewusste Schritte in Richtung einer ausgeglichenen und erfüllten Lebensweise zu gehen.
           </p>
         </li>
         <li className="hidden xl:flex justify-center w-full md:w-1/2">

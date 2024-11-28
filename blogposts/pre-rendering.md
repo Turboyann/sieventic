@@ -1,8 +1,9 @@
 ---
-title: 'Lorem ipsum dolor, sit amet expedita at non natus quod!'
+title: 'Krankenkassen in der Schweiz'
 category: 'Politik'
 date: '2020-01-01'
 author: 'Yann'
+description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur assumenda atque mollitia ullam nesciunt saepe repellat quos quaerat enim officia! Voluptatem voluptate atque commodi vitae labore dolores, dolorem nesciunt aliquid.'
 ---
 
 Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.

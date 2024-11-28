@@ -9,15 +9,15 @@ type Props = {
 }
 
 export default function ListItem({ post }: Props) {
-    const { id, title, date, author, category } = post
+    const { id, title, date, author, category, description } = post
     const FormattedDate = getFormattedDate(date)
     return (
         <li className="hero-posts-left">
-            <Image className="post-image-big border" src={`/${id}.jpg`} width={5568} height={3712} alt="image" />
+            <Image className="post-image-big border" src={`/${id}.jpg`} alt="image"  width={4000} height={2000}/>
             <p className="category border-b border-l">{category}</p>
             <Link href={`blog/posts/${id}`}><h1 className="post-title">{title}</h1></Link>
             <p className="data-post">{FormattedDate},<span className="post-author"> {author}</span></p>
-            <p className="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui facere architecto inventore facilis ducimus porro labore praesentium tempora ipsam blanditiis.</p>
+            <p className="post-text">{description}.</p>
             <Link href={`blog/posts/${id}`}>
                 <button className="buttom-big">MEHR LESEN</button>
             </Link>

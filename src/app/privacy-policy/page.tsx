@@ -111,6 +111,20 @@ export default function privacy() {
                 </p>
                 <Image className='mb-4' src="/contact-img-1.jpg" alt='mountain' height={100} width={100}/>
 
+                <p className="mb-2 col-span-2">
+                  <Link href="https://unsplash.com/de/fotos/person-mit-schwarzem-iphone-mit-borsenanzeige-nGc5RT2HmF0">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit: https://unsplash.com
+                  </Link>
+                </p>
+                <Image className='mb-4' src="/investieren.jpg" alt='investieren' height={100} width={100}/>
+                
+                <p className="mb-2 col-span-2">
+                  <Link href="https://unsplash.com/de/fotos/schachfiguren-auf-dem-brett-nAjil1z3eLk">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit: https://unsplash.com
+                  </Link>
+                </p>
+                <Image className='mb-4' src="/Handelstrategien.jpg" alt='investieren' height={100} width={100}/>
+
 
             </div>
 

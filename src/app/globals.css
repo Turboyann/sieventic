@@ -182,6 +182,13 @@
   margin-bottom: 20px;
 }
 
+.post-image-big {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  max-height: 250px;
+}
+
 .post-text-right {
   font-size: 14px;
 }
@@ -465,5 +472,7 @@
 }
 
 @media (min-width: 1920px) {
-
+  .div-class {
+    height: 630px;
+  }
 }

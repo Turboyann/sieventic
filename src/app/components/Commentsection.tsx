@@ -6,8 +6,8 @@ interface Comment {
     message: string;
     date: string;
     likes: number;
-    dislikes: number; // Track dislikes
-    userReaction: 'like' | 'dislike' | null; // Track if user liked, disliked, or neither
+    dislikes: number;
+    userReaction: 'like' | 'dislike' | null;
 }
 
 interface CommentSectionProps {
@@ -34,8 +34,8 @@ export default function Commentsection({ postId }: CommentSectionProps) {
             message: userComment,
             date: new Date().toLocaleString(),
             likes: 0,
-            dislikes: 0, // Initialize dislikes
-            userReaction: null, // No reaction initially
+            dislikes: 0,
+            userReaction: null,
         };
 
         setComments([...comments, newComment]);
@@ -47,16 +47,15 @@ export default function Commentsection({ postId }: CommentSectionProps) {
         const updatedComments = [...comments];
         const comment = updatedComments[index];
 
+        if (!comment) return;
+
         if (comment.userReaction === 'like') {
-            // If already liked, undo the like
             comment.likes -= 1;
             comment.userReaction = null;
         } else {
-            // If disliked, remove dislike first
             if (comment.userReaction === 'dislike') {
                 comment.dislikes -= 1;
             }
-            // Add a like
             comment.likes += 1;
             comment.userReaction = 'like';
         }
@@ -68,16 +67,15 @@ export default function Commentsection({ postId }: CommentSectionProps) {
         const updatedComments = [...comments];
         const comment = updatedComments[index];
 
+        if (!comment) return;
+
         if (comment.userReaction === 'dislike') {
-            // If already disliked, undo the dislike
             comment.dislikes -= 1;
             comment.userReaction = null;
         } else {
-            // If liked, remove like first
             if (comment.userReaction === 'like') {
                 comment.likes -= 1;
             }
-            // Add a dislike
             comment.dislikes += 1;
             comment.userReaction = 'dislike';
         }

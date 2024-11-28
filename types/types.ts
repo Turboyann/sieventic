@@ -4,4 +4,5 @@ export type BlogPost = {
     date: string
     category: string
     author: string
+    description: string
 }

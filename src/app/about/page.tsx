@@ -42,7 +42,7 @@ export default function about() {
   <div className="bg-theme-color-1 text-center pt-10">
     <h1 className="text-4xl text-color-primary mb-4 font-[200]">ÜBER UNS</h1>
     <p className="max-w-2xl mx-auto text-gray-700 mb-6">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente officiis aut dolorum repudiandae vitae aliquid mollitia? Sapiente magnam magni accusantium.
+      Wir sind ein neuer Blog, der es sich zur Aufgabe gemacht hat, das Leben unserer Mitmenschen in der Schweiz zu verbessern.
     </p>
     <hr className="border-gray-300 mb-6" />
   </div>
@@ -52,12 +52,12 @@ export default function about() {
       <div className="flex flex-col items-center md:w-1/2 p-6">
         <h1 className="text-3xl text-color-primary mb-4 font-[200]">WER WIR SIND</h1>
         <p className="text-gray-700">
-          Sieventic ist ein Schweizer Blog, der 2024 von einem Studenten erstellt wurde. Er zielt darauf ab, Schweizer besser auf ihr Leben vorzubereiten und ihnen beizustehen.
+          Sieventic ist ein Schweizer Blog, der 2024 von einem Studenten als Maturaarbeit gestartet wurde. Was als Schulprojekt begann, entwickelte sich weiter, als der Gründer das Potenzial erkannte, den Blog langfristig fortzuführen. Mit dem Ziel, das Leben seiner Mitmenschen positiv zu beeinflussen, wird der Blog kontinuierlich ausgebaut und mit wertvollen Inhalten gefüllt.
         </p>
       </div>
       <div className="md:w-1/2 p-6">
         <p className="text-gray-700">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dicta veniam incidunt sed autem delectus et corrupti tenetur natus odio laudantium, deleniti doloribus. Nihil esse et corporis voluptate quisquam dolores commodi.
+          Die Grundidee des Blogs ist es, Wissen zu vermitteln, das dem Autor in der Schweiz oft schwer zu entdecken und mühsam zu recherchieren war. Viele nützliche Informationen, die für den Alltag und wichtige Entscheidungen relevant sind, bleiben oft unzugänglich oder schwer verständlich. Der Blog soll genau diese Themen einfach und klar aufbereiten, um Schweizer bei selbstbestimmten Entscheidungen zu unterstützen.
         </p>
       </div>
     </div>
@@ -68,7 +68,7 @@ export default function about() {
       <div className="md:w-1/2 p-6">
         <h1 className="text-3xl text-color-primary mb-4 font-[200]">Unser Ziel</h1>
         <p className="text-gray-700">
-          Wir unterstützen Schweizer beim Erwachsenwerden und teilen Informationen, die oft unverständlich oder schwer zugänglich sind. Wir fokussieren uns dabei auf Themengebiete wie Bildung, Politik und mehr.
+          Unser Ziel ist es, Schweizerinnen und Schweizern bei alltäglichen Herausforderungen zur Seite zu stehen. Ob es um komplexe Themen wie Steuern, die Krankenkasse, Versicherungen oder andere praktische Fragen des Alltags geht – wir bieten leicht verständliche Informationen und nützliche Tipps, um Ihnen den Umgang mit diesen Themen zu erleichtern. Unser Blog soll als verlässliche Anlaufstelle dienen, um fundierte Entscheidungen zu treffen und sich im oft komplizierten Alltag besser zurechtzufinden.
         </p>
       </div>
       <div className="flex justify-center items-center md:w-1/2 p-6">
@@ -81,9 +81,9 @@ export default function about() {
         <Image className="w-full h-auto object-cover" src='/wir.png' alt="About Image 2" width={2563} height={1440} />
       </div>
       <div className="md:w-1/2 p-6">
-        <h1 className="text-3xl text-color-primary mb-4 font-[200]">Wer wir sind</h1>
+        <h1 className="text-3xl text-color-primary mb-4 font-[200]">Mitmachen und Mitgestalten</h1>
         <p className="text-gray-700">
-          Sieventic ist ein Schweizer Blog, der 2024 von einem Studenten erstellt wurde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sint amet doloribus molestias delectus? Vel.
+          Wir glauben an die Kraft der Gemeinschaft und laden Sie herzlich ein, aktiv an unserem Blog teilzunehmen! Ihre Meinungen, Ideen und Erfahrungen sind uns wichtig. Teilen Sie uns mit, welche Themen Sie interessieren, oder schlagen Sie neue Inhalte vor, die Sie gerne behandelt sehen würden. Nutzen Sie die Kommentarfunktion, um Ihre Gedanken zu unseren Beiträgen zu äußern, oder senden Sie uns direkt Ihre Anregungen über unsere Mail. Bewegen Sie sich dafür auf die Sektion "Kontakt".
         </p>
       </div>
     </div>
