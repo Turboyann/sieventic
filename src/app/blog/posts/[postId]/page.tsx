@@ -40,10 +40,10 @@ export default async function Post({ params }: { params: {postId: string }}) {
     const pubDate = getFormattedDate(date)
   
     return (
-    <div className='mx-auto w-6/12 my-20'>
-        <h1 className='text-7xl mt-16 mb-12 w-full font-light mx-auto text-center'>{title}</h1>
+    <div className='mx-auto w-5/6 xl:w-6/12 my-20'>
+        <h1 className='text-2xl md:text-6xl xl:text-7xl mt-16 mb-12 w-full font-light mx-auto text-center'>{title}</h1>
         <div className='mb-6 w-full mx-auto'>
-            <p className='inline mt-0 mr-6'>{pubDate}</p>
+            <p className='inline mt-0 xl:mr-6'>{pubDate}</p>
             <Link href={`/blog?category=${category}`} className='inline mt-0 mx-6'>{category}</Link>
             <p className='inline mt-0 mx-6'>{author}</p>
         </div>        
